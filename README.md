@@ -1,5 +1,5 @@
-# Advanced-Machine-Learning
-
+# Advanced Machine Learning
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Assignment 1 
 
 The assignment consists in the prediction of the price (same name as the target variable in the dataset) of a private room/entire apartment using a neural network.
