@@ -1,6 +1,11 @@
 # Advanced Machine Learning
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## Assignment 1 
+- [Assignment 1](#Assignment-1)
+- [Assignment 2](#Assignment-2)
+- [Assignment 3](#Assignment-3)
+
+
+## Assignment 1
 
 The assignment consists in the prediction of the price (same name as the target variable in the dataset) of a private room/entire apartment using a neural network.
 
@@ -16,3 +21,7 @@ In order to be evaluated, each student should submit a zip file named Nome_Cogno
 Collaboration is allowed, but the final product must be individual.
 
 After the deadline, the name of the students with the highest regression performance (in terms of lowest Root Mean Square Error ) evaluated on the submitted results will be announced. Only well-formatted submissions will be considered.
+
+## Assignment 2 
+
+## Assignment 3 
