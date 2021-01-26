@@ -14,5 +14,5 @@ I
 Notes : 
 
 1. <del>uniformare la dimensione (shape) e spazio dei colori di ciascuna immagine</del>
-2. standardizzare i valori (da [0,255] a [0,1] ) 
+2. <del>standardizzare i valori (da [0,255] a [0,1] )</del>
 3. applicare a N immagini di un dataset
