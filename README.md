@@ -12,14 +12,8 @@ I
 
 
 ## Creazione del dataset
+E' stato considerato il dataset Indoor_CVPR09. Ogni immagine viene ruotata di 90,180,270 gradi e trasformata da RGBA in RGB mantenendo il formato .jpg . Successivamente viene salvata nel rispettivo folder.
 
-1. <del>uniformare la dimensione (shape) e spazio dei colori di ciascuna immagine</del>
-2. <del>standardizzare i valori (da [0,255] a [0,1] )</del>
-3. <del>applicare a N immagini di un dataset</del>
-
-4. creare un dataset partendo da immagini raccolte tramite web scraping o da altre fonti
-5. applicare le trasformazioni
-6. suddividere in training,validation e test
 
 
 ## Implementazione del modello
