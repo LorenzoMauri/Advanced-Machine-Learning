@@ -31,7 +31,6 @@ prendere in considerazione il dropout al 50%  per evitare l'overfitting
 * mobilenet v2 
 * ixception
 
-
 vengono generati i seguenti : rotatedImages.tar nella cartella  Drive INDOOR, rotatedImages.tar
 
 
@@ -43,3 +42,6 @@ la prima partizione il SUN (13GB da dividere per 4) viene elaborata in locale co
 vengono generati i seguenti : rotatedImages.tar nella cartella  Drive SUN, rotatedImages.tar
 
 no resizing per il SUN 
+
+---------------
+il dataset finale deve essere misto
