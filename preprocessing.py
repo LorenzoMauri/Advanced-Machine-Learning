@@ -32,7 +32,7 @@ class Preprocessing:
                validation_split, image_size,
                seed, color_mode, labels) :
       
-        self.config =  self.readConfigFile(filePathConfig = 'content/Advanced-Machine-Learning/config.json')
+        self.config =  self.readConfigFile(filePathConfig = 'config.json')
         self.batch_size = batch_size
         self.labels = labels 
         self.label_mode = label_mode
