@@ -129,6 +129,10 @@ class Preprocessing():
     def transferDataFromGoogleDrive(self,currentDirectory,destinationDirectory,
                                 localDirectory):
         
+        self.currentDirectory=currentDirectory
+        self.destinationDirectory=destinationDirectory
+        self.localDirectory=localDirectory
+        
         t0 = time() 
         copyfile(currentDirectory,destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
