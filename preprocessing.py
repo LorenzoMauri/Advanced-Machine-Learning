@@ -50,7 +50,7 @@ class Preprocessing:
         else :
             os.system('git pull')
             
-        os.system('/content/Advanced-Machine-Learning')
+        os.chdir('/content/Advanced-Machine-Learning')
         return 'local files updated'
         
     def createFolder(self,name) :
