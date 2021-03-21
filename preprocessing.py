@@ -25,7 +25,7 @@ import tarfile
 os.chdir(os.path.dirname(__file__))
 
 
-class Preprocessing():
+class Preprocessing:
     def __init__(self,configFileDict, batch_size,
                label_mode, class_names,
                num_classes, interpolation,
@@ -128,10 +128,7 @@ class Preprocessing():
             
     def transferDataFromGoogleDrive(self,currentDirectory,destinationDirectory,
                                 localDirectory):
-        
-        self.currentDirectory=currentDirectory
-        self.destinationDirectory=destinationDirectory
-        self.localDirectory=localDirectory
+     
         
         t0 = time() 
         copyfile(currentDirectory,destinationDirectory)
@@ -142,4 +139,3 @@ class Preprocessing():
         os.remove(destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
         
-
