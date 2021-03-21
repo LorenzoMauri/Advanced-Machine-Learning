@@ -139,3 +139,20 @@ class Preprocessing:
         os.remove(destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
         
+    def readConfigFile(filePathConfig):
+        # reading configuration file 
+        with open(filePathConfig, "r") as config:
+            readObjectConfig = config.read()
+            config = json.loads(readObjectConfig)
+        # reading all the paths
+        
+        pathDirectories =config['pathDirectories']
+        root_dir = pathDirectories['root']
+        model_dir = pathDirectories['model']['root']
+        data_dir = pathDirectories['dataset']['root']
+        remote_indoor_dir = pathDirectories['dataset']['indoorRemote']
+        remote_sun_dir = pathDirectories['dataset']['sunRemote']
+        local_indoor_dir = pathDirectories['dataset']['indoorLocal']
+        local_sun_dir = pathDirectories['dataset']['sunLocal']
+        
+        return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
