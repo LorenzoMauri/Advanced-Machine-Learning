@@ -30,12 +30,14 @@ class Preprocessing():
                label_mode, class_names,
                num_classes, interpolation,
                validation_split, image_size,
-               seed, color_mode 
+               seed, color_mode , 
+               labels 
                ) :
       
         self.config =  configFileDict
         
         self.batch_size = batch_size
+        self.labels = labels 
         self.label_mode = label_mode
         self.class_names = class_names 
         self.num_classes = num_classes 
@@ -139,10 +141,4 @@ class Preprocessing():
         os.remove(destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
         
-                
-if __name__ == '__main__' :
-  Preprocessing(labels = 'inferred', label_mode = 'int',
-                                class_names= ['0','90','180','270'],color_mode = 'rgb',
-                                batch_size =  256, image_size = (224, 224), # BiT image size > 96 x 96 px # VGG16 (224, 224) # Xception (299, 299)
-                                seed = 1234, validation_split = 0.2,
-                                interpolation= 'bicubic', num_classes = 4 ) 
+
