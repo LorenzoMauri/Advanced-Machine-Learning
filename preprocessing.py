@@ -141,7 +141,7 @@ class Preprocessing():
         
                 
 if __name__ == '__main__' :
-  preprocessing = Preprocessing(labels = 'inferred', label_mode = 'int',
+  Preprocessing(labels = 'inferred', label_mode = 'int',
                                 class_names= ['0','90','180','270'],color_mode = 'rgb',
                                 batch_size =  256, image_size = (224, 224), # BiT image size > 96 x 96 px # VGG16 (224, 224) # Xception (299, 299)
                                 seed = 1234, validation_split = 0.2,
