@@ -22,7 +22,7 @@ import tarfile
 
 
 
-os.chdir(os.path.dirnname(__file__))
+os.chdir(os.path.dirname(__file__))
 
 
 class Preprocessing():
