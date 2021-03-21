@@ -139,7 +139,7 @@ class Preprocessing:
         os.remove(destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
         
-    def readConfigFile(filePathConfig):
+    def readConfigFile(self,filePathConfig):
         # reading configuration file 
         with open(filePathConfig, "r") as config:
             readObjectConfig = config.read()
