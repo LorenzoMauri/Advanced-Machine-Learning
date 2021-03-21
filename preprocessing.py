@@ -32,7 +32,7 @@ class Preprocessing:
                validation_split, image_size,
                seed, color_mode, labels) :
       
-        self.config =  configFileDict
+        self.config =  self.readConfigFile(config=True)
         self.batch_size = batch_size
         self.labels = labels 
         self.label_mode = label_mode
@@ -113,9 +113,7 @@ class Preprocessing:
         print(f"Number of test batches: {tf.data.experimental.cardinality(test_ds)}")
     
         return self.train_ds, validation_ds, test_ds
-    
-    
-    
+ 
     def visualizeImages(self,grid=3,figsize = (10,10)) : 
         plt.figure(figsize=figsize)
         for images, labels in self.train_ds.take(1):
@@ -128,7 +126,6 @@ class Preprocessing:
             
     def transferDataFromGoogleDrive(self,currentDirectory,destinationDirectory,
                                 localDirectory):
-     
         
         t0 = time() 
         copyfile(currentDirectory,destinationDirectory)
@@ -145,8 +142,10 @@ class Preprocessing:
             readObjectConfig = config.read()
             config = json.loads(readObjectConfig)
         # reading all the paths
-        
-        pathDirectories =config['pathDirectories']
+        return config 
+    
+    def getPaths(self):
+        pathDirectories = self.config['pathDirectories']
         root_dir = pathDirectories['root']
         model_dir = pathDirectories['model']['root']
         data_dir = pathDirectories['dataset']['root']
@@ -155,7 +154,4 @@ class Preprocessing:
         local_indoor_dir = pathDirectories['dataset']['indoorLocal']
         local_sun_dir = pathDirectories['dataset']['sunLocal']
         
-        if config : 
-            return config 
-        else : 
-            return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
+        return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
