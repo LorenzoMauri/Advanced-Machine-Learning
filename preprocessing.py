@@ -51,7 +51,7 @@ class Preprocessing:
             os.mkdir(name)
 
       
-    def dataLoader(self,datasetName,trainDataDirectory,
+    def dataLoader(self,trainDataDirectory,
                    testDataDirectory):
              
     
@@ -155,8 +155,12 @@ class Preprocessing:
         remote_sun_dir = pathDirectories['dataset']['sunRemote']
         local_indoor_dir = pathDirectories['dataset']['indoorLocal']
         local_sun_dir = pathDirectories['dataset']['sunLocal']
+        indoor_train_dir = pathDirectories['dataset']['indoorTrainData']
+        indoor_test_dir = pathDirectories['dataset']['indoorTestData']
+        sun_train_dir= pathDirectories['dataset']['sunTrainData']
+        sun_test_dir = pathDirectories['dataset']['sunTestData']
         
-        return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
+        return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir,indoor_train_dir,indoor_test_dir,sun_train_dir,sun_test_dir
     
     
    
