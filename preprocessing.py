@@ -44,7 +44,7 @@ class Preprocessing():
         self.seed = seed
         self.color_mode = color_mode 
         
-    def createFolder(name) :
+    def createFolder(self,name) :
         if not os.path.exists(name):
           os.mkdir(name)
 
@@ -126,7 +126,7 @@ class Preprocessing():
             plt.axis('off')
             
             
-    def transferDataFromGoogleDrive(currentDirectory,destinationDirectory,
+    def transferDataFromGoogleDrive(self,currentDirectory,destinationDirectory,
                                 localDirectory):
         
         t0 = time() 
