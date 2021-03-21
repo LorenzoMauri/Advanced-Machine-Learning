@@ -44,7 +44,7 @@ class Preprocessing():
         self.seed = seed
         self.color_mode = color_mode 
         
-    def __createFolder(name) :
+    def createFolder(name) :
         if not os.path.exists(name):
           os.mkdir(name)
 
