@@ -155,4 +155,4 @@ class Preprocessing:
         local_indoor_dir = pathDirectories['dataset']['indoorLocal']
         local_sun_dir = pathDirectories['dataset']['sunLocal']
         
-        return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
+        return config,pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
