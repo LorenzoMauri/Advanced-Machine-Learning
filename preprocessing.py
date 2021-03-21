@@ -26,7 +26,7 @@ os.chdir(os.path.dirname(__file__))
 
 
 class Preprocessing:
-    def __init__(self,configFileDict, batch_size,
+    def __init__(self, batch_size,
                label_mode, class_names,
                num_classes, interpolation,
                validation_split, image_size,
