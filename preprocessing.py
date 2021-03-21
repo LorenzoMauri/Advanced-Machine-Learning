@@ -32,7 +32,7 @@ class Preprocessing:
                validation_split, image_size,
                seed, color_mode, labels) :
       
-        self.config =  self.readConfigFile(config=True)
+        self.config =  self.readConfigFile()
         self.batch_size = batch_size
         self.labels = labels 
         self.label_mode = label_mode
@@ -44,6 +44,15 @@ class Preprocessing:
         self.seed = seed
         self.color_mode = color_mode
     
+    def update(self):
+        if not os.path.isdir('/content/Advanced-Machine-Learning') : 
+             os.system('git clone https://github.com/LorenzoMauri/Advanced-Machine-Learning')
+        else :
+            os.system('git pull')
+            
+        os.system('/content/Advanced-Machine-Learning')
+        return 'local files updated'
+        
     def createFolder(self,name) :
         if not os.path.exists(name) : 
             os.mkdir(name)
@@ -136,7 +145,7 @@ class Preprocessing:
         os.remove(destinationDirectory)
         print(f"File extraction completed in {(time() - t0)} seconds")
         
-    def readConfigFile(self,filePathConfig, config = False):
+    def readConfigFile(self,filePathConfig):
         # reading configuration file 
         with open(filePathConfig, "r") as config:
             readObjectConfig = config.read()
@@ -155,3 +164,9 @@ class Preprocessing:
         local_sun_dir = pathDirectories['dataset']['sunLocal']
         
         return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
+    
+    
+    # quando viene importato lo script, viene immediatamente eseguito il modulo specificato di seguito
+    if __name__ == "__main__":
+        update()
+        
