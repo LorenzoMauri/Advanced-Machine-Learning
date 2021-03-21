@@ -42,11 +42,11 @@ class Preprocessing():
         self.validation_split = validation_split
         self.image_size = image_size 
         self.seed = seed
-        self.color_mode = color_mode 
-        
+        self.color_mode = color_mode
+    
     def createFolder(self,name) :
-        if not os.path.exists(name):
-          os.mkdir(name)
+        if not os.path.exists(name)
+            os.mkdir(name)
 
       
     def dataLoader(self,datasetName,trainDataDirectory,
