@@ -44,14 +44,7 @@ class Preprocessing:
         self.seed = seed
         self.color_mode = color_mode
     
-    def update(self):
-        if not os.path.isdir('/content/Advanced-Machine-Learning') : 
-             os.system('git clone https://github.com/LorenzoMauri/Advanced-Machine-Learning')
-        else :
-            os.system('git pull')
-            
-        os.chdir('/content/Advanced-Machine-Learning')
-        return 'local files updated'
+    
         
     def createFolder(self,name) :
         if not os.path.exists(name) : 
@@ -166,7 +159,5 @@ class Preprocessing:
         return pathDirectories,root_dir,model_dir, data_dir, remote_indoor_dir, remote_sun_dir,local_indoor_dir,local_sun_dir
     
     
-    # quando viene importato lo script, viene immediatamente eseguito il modulo specificato di seguito
-    if __name__ == "__main__":
-        update()
+   
         
