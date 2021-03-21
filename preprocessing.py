@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-
-import json 
 import os 
+import json 
 import tensorflow as tf 
 import keras
 from matplotlib import pyplot as plt 
