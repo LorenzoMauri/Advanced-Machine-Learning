@@ -30,12 +30,9 @@ class Preprocessing():
                label_mode, class_names,
                num_classes, interpolation,
                validation_split, image_size,
-               seed, color_mode , 
-               labels 
-               ) :
+               seed, color_mode, labels) :
       
         self.config =  configFileDict
-        
         self.batch_size = batch_size
         self.labels = labels 
         self.label_mode = label_mode
