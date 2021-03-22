@@ -75,7 +75,7 @@ preprocess.transferDataFromGoogleDrive(currentDirectory = remote_sun_dir + '/Rot
                             destinationDirectory=local_sun_dir + '/RotatedTestImages_224.tar',
                             localDirectory=local_sun_dir)
 
-train_ds, validation_ds, test_ds = preprocess.dataLoader(indoor_train_dir,indoor_test_dir)
+indoor_train_ds, indoor_validation_ds, indoor_test_ds = preprocess.dataLoader(indoor_train_dir,indoor_test_dir)
 
 sun_train_ds, sun_validation_ds, sun_test_ds = preprocess.dataLoader(sun_train_dir, sun_test_dir) 
 
