@@ -19,18 +19,6 @@ print('TF version:', tf.__version__)
 print('Hub version:', hub.__version__)
 print('GPU: ', tf.config.list_physical_devices('GPU'))
 
-
-#################################
-# clone or pull repository github 
-#################################
-
-if not os.path.isdir('/content/Advanced-Machine-Learning') : 
-  os.system('git clone https://github.com/LorenzoMauri/Advanced-Machine-Learning')
-else :
-  os.system('git pull') 
-
-os.chdir('/content/Advanced-Machine-Learning/')
-
 #################################
 import preprocessing
 #################################
