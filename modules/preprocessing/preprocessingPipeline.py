@@ -19,6 +19,8 @@ print('TF version:', tf.__version__)
 print('Hub version:', hub.__version__)
 print('GPU: ', tf.config.list_physical_devices('GPU'))
 
+os.chdir(os.path.dirname(__file__))
+print(os.path.dirname(__file__))
 #################################
 import preprocessing
 #################################
