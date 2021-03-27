@@ -110,9 +110,9 @@ class Preprocessing:
         assert isinstance(self.train_ds, tf.data.Dataset)
         print(f"Number of train batches: {tf.data.experimental.cardinality(self.train_ds)}")
         assert isinstance(self.validation_ds, tf.data.Dataset)
-        print(f"Number of validation batches: {tf.data.experimental.cardinality(validation_ds)}")
+        print(f"Number of validation batches: {tf.data.experimental.cardinality(self.validation_ds)}")
         assert isinstance(self.test_ds, tf.data.Dataset)
-        print(f"Number of test batches: {tf.data.experimental.cardinality(test_ds)}")
+        print(f"Number of test batches: {tf.data.experimental.cardinality(self.test_ds)}")
     
         return self.train_ds, self.validation_ds, self.test_ds
  
