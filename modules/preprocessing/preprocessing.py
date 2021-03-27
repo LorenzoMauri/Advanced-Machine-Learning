@@ -73,7 +73,7 @@ class Preprocessing:
         )
     
         # Validation
-        validation_ds = tf.keras.preprocessing.image_dataset_from_directory(
+        self.validation_ds = tf.keras.preprocessing.image_dataset_from_directory(
             trainDataDirectory,
             labels=self.labels,
             label_mode= self.label_mode,
@@ -90,7 +90,7 @@ class Preprocessing:
         )
     
         # Test
-        test_ds = tf.keras.preprocessing.image_dataset_from_directory(
+        self.test_ds = tf.keras.preprocessing.image_dataset_from_directory(
             testDataDirectory,
             labels= self.labels,
             label_mode= self.label_mode,
@@ -109,12 +109,12 @@ class Preprocessing:
         # controls 
         assert isinstance(self.train_ds, tf.data.Dataset)
         print(f"Number of train batches: {tf.data.experimental.cardinality(self.train_ds)}")
-        assert isinstance(validation_ds, tf.data.Dataset)
+        assert isinstance(self.validation_ds, tf.data.Dataset)
         print(f"Number of validation batches: {tf.data.experimental.cardinality(validation_ds)}")
-        assert isinstance(test_ds, tf.data.Dataset)
+        assert isinstance(self.test_ds, tf.data.Dataset)
         print(f"Number of test batches: {tf.data.experimental.cardinality(test_ds)}")
     
-        return self.train_ds, validation_ds, test_ds
+        return self.train_ds, self.validation_ds, self.test_ds
  
     def visualizeImages(self,grid=3,figsize = (10,10)) : 
         plt.figure(figsize=figsize)
