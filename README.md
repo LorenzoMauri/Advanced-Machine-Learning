@@ -32,17 +32,14 @@ NO resizing 224x224
 
 
 
-## Implementazione del modello
-### CURRENT STATE
-
-Decidiamo di iniziare provando ad effettuare Transfer Learning . I modelli pre-allenati (sul dataset Imagenet) presi in considerazione sono i seguenti :
-
+## Models 
+First let's begin with building the models and apllying Transfer Learning on Imagenet dataset.
 
 * Vgg16
 * Mobilenet v2 
 
 
-Colaburators 
+Contributors  
 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LorenzoMauri) Lorenzo Mauri
 
