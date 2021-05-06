@@ -43,4 +43,4 @@ First let's begin with building the models and apllying Transfer Learning on Ima
 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LorenzoMauri) Lorenzo Mauri
 
-Vasco Coehlo
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/Vsc0)Vasco Coehlo
