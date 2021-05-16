@@ -39,7 +39,7 @@ First let's begin with building the models and apllying Transfer Learning on Ima
 * Mobilenet v2 
 
 
-## Contributors  
+## Authors
 
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/LorenzoMauri) Lorenzo Mauri
 
