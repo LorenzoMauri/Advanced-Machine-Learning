@@ -1,0 +1,32 @@
+#Versions : 
+Python 3.6+
+Tensorflow 2.5.0
+
+#Python packages : 
+
+## generic usage
+
+from time import time
+import os
+import requests
+import numpy as np
+
+## images 
+
+from PIL import Image
+
+## I/O
+
+from shutil import copyfile, copyfileobj
+import tarfile
+
+## machine learning and deep learning packages 
+
+import tensorflow as tf
+from keras.models import load_model
+from tensorflow.keras.models import Model
+
+## data visualization
+
+import matplotlib.pylab as plt
+import seaborn as sns
