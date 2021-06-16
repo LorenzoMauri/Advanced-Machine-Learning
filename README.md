@@ -28,7 +28,12 @@ The .txt file [requirements](requirements.txt) lists the python packages used.
 
 
 ## Resources and how-to-run
-In the `notebook` folder the following .ipynb files are provided : 
+During this work the code has been executed through a Google Colaboratory, therefore we suggest its usage in order to reproduce this project.
+
+> Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education.  More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs. [more details](https://research.google.com/colaboratory/faq.html)
+
+
+In the `notebook` folder of this repository, the following .ipynb files are provided : 
 
 * `generator_executed_successfully` : this notebook contains the source code for the generation of the dataset used to train the model. More specifically : 
      *  it downloads the `INDOOR_CVPR_09` images from the [ufficial website](http://groups.csail.mit.edu/vision/LabelMe/NewImages/)
