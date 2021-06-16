@@ -26,7 +26,19 @@ Similar to human perception, Convolutional Neural Networks can take into account
 
 
 ## Resources and how-to-run
+In the `notebook` folder the following .ipynb files are provided : 
 
+* `generator_executed_successfully` : this notebook contains the source code for the generation of the dataset used to train the model. More specifically : 
+     *  it downloads the `INDOOR_CVPR_09` images from the [ufficial website](http://groups.csail.mit.edu/vision/LabelMe/NewImages/)
+     *  it rotates the `INDOOR_CVPR_09` images into four orientations and collocates them into their respective folders (0,90,180 and 270 degrees angles).
+     * it backups all the data to Google Drive for future usage 
+
+* `vgg16_executed_successfully` : this notebook implements the VGG-16 model and contains the related source code. In particular : 
+     * it migrates and loads the (previous) generated dataset along with the `SUN397` dataset from Google Drive to the            Colab instance.
+ 
+       Please note that, for a correct execution,  all the pathnames in the `Prepare Data` section must be modified since          they are linked to our specific use case.
+       
+     * it merges the two dataset to get a unique one. Then it builds, tunes and saves the model. 
 
 
 ## Contacts 
