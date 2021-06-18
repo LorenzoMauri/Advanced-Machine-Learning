@@ -33,17 +33,17 @@ During this work the code has been executed through a Google Colaboratory, there
 > Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education.  More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs. [more details](https://research.google.com/colaboratory/faq.html)
 
 
-In the `notebook` folder of this repository, the following .ipynb files are provided : 
+In the `notebook` folder of this repository, the following notebooks are provided : 
 
-* `generator_executed_successfully` : this notebook contains the source code for the generation of the dataset used to train the model. More specifically : 
+* `generator.ipynb` : this notebook contains the source code for the generation of the Indoor dataset. More specifically : 
      *  it downloads the `INDOOR_CVPR_09` images from the [ufficial website](http://groups.csail.mit.edu/vision/LabelMe/NewImages/)
      *  it rotates the `INDOOR_CVPR_09` images into four orientations and collocates them into their respective folders (0,90,180 and 270 degrees angles).
      * it backups all the data to Google Drive for future usage 
+     
+ As far as the SUN dataset is concerned, it has been handled locally due to memory limits imposed by Google Colaboratory.
 
-* `vgg16_executed_successfully` : this notebook implements the VGG-16 model and contains the related source code. In particular : 
-     * it migrates and loads the (previous) generated dataset along with the `SUN397` dataset from Google Drive to the            Colab instance.
- 
-       Please note that, for a correct execution,  all the pathnames in the `Prepare Data` section must be modified since          they are linked to our specific use case.
+* `vgg16.ipynb` : this notebook implements the VGG-16 model and contains the related source code. In particular : 
+     * it migrates and loads both the Indoor and SUN datasets from Google Drive to the Colaboratory.
        
      * it merges the two dataset to get a unique one. Then it builds, tunes and saves the model. 
 
