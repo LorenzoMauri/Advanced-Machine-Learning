@@ -17,6 +17,6 @@ As far as the SUN397 dataset is concerned, it was generated locally due to memor
      * it migrates and loads datasets from Google Drive to Google Colaboratory
      * it builds, trains and saves to Google Drive the final model
 
-## Contributors
+## Authors
 * Vasco Coelho 807304
 * Lorenzo Mauri 807306
