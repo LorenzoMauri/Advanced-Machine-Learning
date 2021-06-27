@@ -4,6 +4,8 @@
 
 :round_pushpin: *Data Science MSc, Università degli studi di Milano-Bicocca*
 
+[![Python Version](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) 
+
 ## Overview
 * Task : predict the correct orientation of an image with respect to the coarse angles of 0, 90, 180,and 270 degrees.
 
