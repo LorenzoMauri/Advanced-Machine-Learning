@@ -32,7 +32,7 @@ The .txt file [requirements](requirements.txt) lists the python packages used.
 
 
 ## Resources and how-to-run
-During this work the code has been executed through a Google Colaboratory, therefore we suggest its usage in order to reproduce this project.
+During this work the code has been executed through a Google Colaboratory, therefore its usage is recommended in order to reproduce the project.
 
 > Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education.  More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs. [more details](https://research.google.com/colaboratory/faq.html)
 
@@ -53,9 +53,10 @@ In the `notebook` folder of this repository, the following notebooks are provide
 
 
 ## Additional information
-Further information about context, methodology, results and interpretations are provided in the [report](Report.pdf) 
-## Contacts 
+Further informations about context, methodology, results and interpretations are provided in this [report](Report.pdf) 
 
+## Contacts 
+You can send me a message at lorenzo.mauri858@gmail.com or ping me on LinkedIn.
 * Lorenzo Mauri [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/lorenzo-mauri-773ba216b/) [![GitHub](https://i.stack.imgur.com/tskMh.png)](https://github.com/LorenzoMauri)
 
 * Vasco Coehlo
