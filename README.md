@@ -56,7 +56,6 @@ In the `notebook` folder of this repository, the following notebooks are provide
 Further informations about context, methodology, results and interpretations are provided in this [report](Report.pdf) 
 
 ## Contacts 
-You can send me a message at lorenzo.mauri858@gmail.com or ping me on LinkedIn.
-* Lorenzo Mauri [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/lorenzo-mauri-773ba216b/) [![GitHub](https://i.stack.imgur.com/tskMh.png)](https://github.com/LorenzoMauri)
+You can send me a message at lorenzo.mauri858@gmail.com or ping me on LinkedIn [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/lorenzo-mauri-773ba216b/) [![GitHub](https://i.stack.imgur.com/tskMh.png)](https://github.com/LorenzoMauri)
 
 * Vasco Coehlo
