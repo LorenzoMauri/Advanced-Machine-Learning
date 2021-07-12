@@ -58,6 +58,8 @@ Further informations about context, methodology, results and interpretations are
 ## Contacts 
 
 * Lorenzo Mauri
-You can send me a message at lorenzo.mauri858@gmail.com or ping me on LinkedIn [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/lorenzo-mauri-773ba216b/) [![GitHub](https://i.stack.imgur.com/tskMh.png)](https://github.com/LorenzoMauri)
+
+You can send me a message at lorenzo.mauri858@gmail.com or ping me on LinkedIn [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/lorenzo-mauri-773ba216b/) 
+
 
 * Vasco Coehlo
