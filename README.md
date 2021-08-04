@@ -1,7 +1,7 @@
 
 [![Python Version](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://shields.io/) 
-
-# Image orientation detection 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+# Image Orientation Detection 
 ---------------------------------------------------------
 :technologist: *by Lorenzo Mauri, Vasco Coelho*
 
