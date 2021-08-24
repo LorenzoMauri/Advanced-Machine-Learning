@@ -55,7 +55,7 @@ In the `notebook` folder of this repository, the following notebooks are provide
 ## Additional information
 Further informations about context, methodology, results and interpretations are provided in this [report](Report.pdf) 
 
-## Contacts 
+## Authors 
 
 * Lorenzo Mauri
 
